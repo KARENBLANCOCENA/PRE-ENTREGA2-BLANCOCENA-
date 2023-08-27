@@ -1,0 +1,109 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+ box-sizing: border-box;
+  }
+
+
+
+.navbar{
+    height: 60px;
+    background-color: rgba(181, 139, 209, 0.808) !important;
+    box-shadow: 0 0 10px rgb(67, 235, 218) !important;
+}
+
+
+.navbar-brand img{
+height: 40px;
+}
+
+.nav-link {
+    color: paleturquoise !important;
+}
+
+.jumbotron{
+    height: 400px;
+    width: 100%;
+    background-image: url(img/tarta\ linda.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(60%);
+}
+
+h1{
+    color:aliceblue;
+    text-shadow: 0 0 white;
+}
+
+h2{
+text-align: center;
+background-color:  rgba(181, 139, 209, 0.808);
+padding: 10px;
+margin-bottom: 0;
+}
+
+
+.nleft{
+    height: 400px;
+    width: 50%;
+    background-image: url(img/cupcake-gf447d6d72_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h4{
+    height: 400px;
+    background-image: url(img/macarons.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0 6x black, 0 0 6px black;
+    text-align: center;
+}
+h5{
+    height: 400px;
+    background-image: url(img/pancakes-gd3dbca378_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0 6x black, 0 0 6px black;
+    text-align: center;
+}
+
+h6{
+    height: 400px;
+    background-image: url(img/MACARONS\ ROSAS.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0 6x black, 0 0 6px black;
+    text-align: center;
+}
+
+
+.jumbotronn{
+    height: 400px;
+    width: 100%;
+    background-image: url(img/USAR.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(60%);
+}
+
+
+footer{
+    background-color: rgba(181, 139, 209, 0.808) ;
+    text-align: center;
+    color: black;
+    padding: 20px;
+
+}
+
+
+@media only screen and (min-width:0) and (max-width:576px) {
+    .navbar-collapse{
+        background-color: rgba(255, 218, 185, 0.651) !important;
+        display: flex;
+        justify-content: center !important;
+    }
+    
+}
